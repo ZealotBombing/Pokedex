@@ -434,9 +434,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\PokeDataSource.csproj",
-      "projectName": "PokeDataSource",
-      "projectPath": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\PokeDataSource.csproj",
+      "projectUniqueName": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\PokeSERVICE.csproj",
+      "projectName": "PokeSERVICE",
+      "projectPath": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\PokeSERVICE.csproj",
       "packagesPath": "C:\\Users\\cfuen\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\obj\\",
       "projectStyle": "PackageReference",

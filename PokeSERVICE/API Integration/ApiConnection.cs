@@ -1,4 +1,7 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
+using OpenQA.Selenium;
+using PokeDataSource.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -10,7 +13,12 @@ namespace PokeSERVICE.API_Integration
 {
     public class ApiConnection
     {
-        private readonly string _pokeHost = ConfigurationManager.AppSettings["Pokehost"].ToString();
+        private readonly string _pokeHost;
+
+        public ApiConnection(IOptions<PokeConfiguration> config)
+        {
+            _pokeHost = config.Value.PokeHost;
+        }
 
         public async Task<T> GetPokeDataAsync<T>(string endPoint)
         {

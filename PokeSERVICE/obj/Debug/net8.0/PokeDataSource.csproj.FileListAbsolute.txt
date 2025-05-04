@@ -4,7 +4,6 @@ C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\obj\Debug\net8.0\PokeDataSource.
 C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\obj\Debug\net8.0\PokeDataSource.AssemblyInfo.cs
 C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\obj\Debug\net8.0\PokeDataSource.csproj.CoreCompileInputs.cache
 C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\obj\Debug\net8.0\PokeDataSource.sourcelink.json
-C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\bin\Debug\net8.0\PokeDataSource.dll.config
 C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\bin\Debug\net8.0\PokeDataSource.deps.json
 C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\bin\Debug\net8.0\PokeDataSource.dll
 C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\bin\Debug\net8.0\PokeDataSource.pdb
@@ -12,3 +11,6 @@ C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\obj\Debug\net8.0\PokeDataSource.
 C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\obj\Debug\net8.0\refint\PokeDataSource.dll
 C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\obj\Debug\net8.0\PokeDataSource.pdb
 C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\obj\Debug\net8.0\ref\PokeDataSource.dll
+C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
+C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
+C:\Users\cfuen\source\repos\Pokedex\PokeSERVICE\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
