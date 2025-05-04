@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokeSERVICE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bd31823009adad1084fe54b6b9411e800b0c8ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f54933bbed5504fd8c84f431f290c0949ba85216")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokeSERVICE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokeSERVICE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
