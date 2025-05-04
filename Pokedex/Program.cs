@@ -22,4 +22,18 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/Pokemon/Home/PokemonList");
+    return Task.CompletedTask;
+});
+
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Home}/{action=PokemonList}/{id?}");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
 app.Run();

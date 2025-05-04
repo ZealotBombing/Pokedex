@@ -229,3 +229,4 @@ C:\Users\cfuen\source\repos\Pokedex\Pokedex\bin\Debug\net8.0\runtimes\win\lib\ne
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\Pokedex.csproj.AssemblyReference.cache
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\Pokedex.csproj.Up2Date
+C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\Pokedex.sourcelink.json
