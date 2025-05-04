@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokedex\\areas\\pokemon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|solutionrelative:pokedex\\areas\\pokemon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokedex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|solutionrelative:pokedex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokedex\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|solutionrelative:pokedex\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokedex\\areas\\pokemon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|solutionrelative:pokedex\\areas\\pokemon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokedex\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Pokedex\\Properties\\launchSettings.json",
@@ -80,26 +80,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\Areas\\Pokemon\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Pokedex\\Areas\\Pokemon\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\Areas\\Pokemon\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Pokedex\\Areas\\Pokemon\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T02:42:20.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\Program.cs",
               "RelativeDocumentMoniker": "Pokedex\\Program.cs",
               "ToolTip": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\Program.cs",
               "RelativeToolTip": "Pokedex\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAUwB8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwBYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T02:41:51.597Z",
               "EditorCaption": ""
