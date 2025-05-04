@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PokeSERVICE.API_Integration
 {
-    public class ApiIntregration
+    public class ApiConnection
     {
         private readonly string _pokeHost = ConfigurationManager.AppSettings["Pokehost"].ToString();
 

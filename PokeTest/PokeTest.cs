@@ -1,3 +1,7 @@
+using PokeDataSource.Pokemon.DataTransferObject;
+using PokeSERVICE.API_Integration;
+using System.Threading.Tasks;
+
 namespace PokeTest
 {
     public class Tests
@@ -8,9 +12,12 @@ namespace PokeTest
         }
 
         [Test]
-        public void GetPokemon()
+        public async Task GetPokemon()
         {
-            Assert.Pass();
+            var apiConnection = new ApiConnection();
+            var pokemon = await apiConnection.GetPokeDataAsync<PokemonApíResultDto>("Pokemon/Pokemon/1");
+
+
         }
     }
 }
