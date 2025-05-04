@@ -8,7 +8,7 @@ namespace PokeTest
         }
 
         [Test]
-        public void Test1()
+        public void GetPokemon()
         {
             Assert.Pass();
         }
