@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokedex", "Pokedex\Pokedex.csproj", "{697FE31D-E86F-45A0-828A-3DA140C7B82E}"
 EndProject
@@ -15,9 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-PokeDAL", "3-PokeDAL", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeDAL", "PokeDAL\PokeDAL.csproj", "{099BD052-EA7C-42F6-8F52-80DFC8C39187}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-PokeSERVICE", "4-PokeSERVICE", "{CE5659FF-0B8E-4144-AE81-6A6C17FCC95C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-PokeDataSource", "4-PokeDataSource", "{CE5659FF-0B8E-4144-AE81-6A6C17FCC95C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeSERVICE", "PokeSERVICE\PokeSERVICE.csproj", "{656F0E78-DF55-4EB2-B658-C96A5A96D0FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeDataSource", "PokeSERVICE\PokeDataSource.csproj", "{656F0E78-DF55-4EB2-B658-C96A5A96D0FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-TestLayer", "5-TestLayer", "{056B64A5-4C9C-4CED-94DD-6AD8A1326F51}"
 EndProject

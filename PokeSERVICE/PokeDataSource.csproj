@@ -13,6 +13,8 @@
 
   <ItemGroup>
     <Folder Include="Configuration\" />
+    <Folder Include="Pokemon\DataSourceInterfaces\" />
+    <Folder Include="Pokemon\DataSourceEndPointName\" />
   </ItemGroup>
 
 </Project>
