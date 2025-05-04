@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace PokeSERVICE.API_Integration
 {
     public class ApiIntregration
     {
-        public Task<T> GetPokeDataAsync<T>(string endPoint)
+        public async Task<T> GetPokeDataAsync<T>(string endPoint)
         {
             using (HttpClient pokeClient = new HttpClient())
             {
