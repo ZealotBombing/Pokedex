@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PokeDataSource.Component.Pokemon.DataTransferObject
 {
-    public class PokemonApíResultDto
+    public class PokemonApiResultDto
     {
         public int id { get; set; }
         public string name { get; set; }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokeDataSource")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a88e6f56efedad998d238ef075fce917ad922bc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0d372f8f11d281b2ad3632cf59db9503408daed")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokeDataSource")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokeDataSource")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
