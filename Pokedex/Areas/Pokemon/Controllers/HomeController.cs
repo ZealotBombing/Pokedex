@@ -16,8 +16,16 @@ namespace Pokedex.Areas.Pokemon.Controllers
 
         public async Task<IActionResult> PokemonList()
         {
-            var pokemonList = await _pokemonListImpl.GetPokemonListAsync(20);
-            return View(pokemonList);
+            try
+            {
+                var pokemonList = await _pokemonListImpl.GetPokemonListAsync(20);
+                return View(pokemonList);
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
     }
 }

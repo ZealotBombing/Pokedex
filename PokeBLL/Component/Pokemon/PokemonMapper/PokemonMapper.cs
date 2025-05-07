@@ -33,7 +33,8 @@ namespace Pokemon.Component.BusinessMapper
             //dto.CryAudioSourceLatest = pokemonApiData.cries == null ? "" : pokemonApiData.cries.latest;
             //dto.Types = pokemonApiData.types == null || pokemonApiData.types.Count == 0 ? new List<PokemonTypeDto>() : PokemonTypeMapper.ToDto(pokemonApiData.types);
             //dto.Past_types = pokemonApiData.past_types == null || pokemonApiData.past_types.Count == 0 ? new List<PokemonTypePastDto>() : PokemonTypePastMapper.ToDto(pokemonApiData.past_types);
-            dto.Url = pokemonApiData.url;
+            //dto.Url = pokemonApiData.url;
+            dto.Url = pokemonApiData.sprites.front_default;
             return dto;
         }
 
