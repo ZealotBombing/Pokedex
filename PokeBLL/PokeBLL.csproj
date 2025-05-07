@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Component\Pokemon\PokemonMapper\" />
+    <Folder Include="Component\Pokemon\PokemonInterfaces\" />
+    <Folder Include="Component\Pokemon\PokemonDataTransferObject\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PokeSERVICE\PokeDataSource.csproj" />
+  </ItemGroup>
+
 </Project>
