@@ -1,13 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PokeBLL.Component.Pokemon.PokemonImplement;
+using PokeBLL.Component.Pokemon.PokemonInterfaces;
+using System.Threading.Tasks;
 
 namespace Pokedex.Areas.Pokemon.Controllers
 {
     [Area("Pokemon")]
     public class HomeController : Controller
     {
-        public IActionResult PokemonList()
+        private readonly IPokemonListImpl _pokemonListImpl;
+        public HomeController(PokemonListImpl pokemonListImpl) { 
+        
+            this._pokemonListImpl = pokemonListImpl;
+        }
+
+        public async Task<IActionResult> PokemonList()
         {
-            return View();
+            var pokemonList = await _pokemonListImpl.GetPokemonListAsync(20);
+            return View(pokemonList);
         }
     }
 }
