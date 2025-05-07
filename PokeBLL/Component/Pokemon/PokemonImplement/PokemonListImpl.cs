@@ -1,4 +1,5 @@
 ﻿using PokeDataSource.Component.Pokemon.DataSourceInterfaces;
+using Pokemon.Component.BusinessMapper;
 using Pokemon.Component.DataTransferObject;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,7 @@ namespace PokeBLL.Component.Pokemon.PokemonImplement
 
             var pokemonList = await _pokemonListApiConnectionImp.GetPokemonListAsync(offSet);
 
-
+            return PokemonMapper.ToDto(pokemonList);
         }
 
     }

@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Component\Pokemon\PokemonMapper\" />
     <Folder Include="Component\Pokemon\PokemonInterfaces\" />
   </ItemGroup>
 
