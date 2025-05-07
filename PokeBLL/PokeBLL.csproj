@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Component\Pokemon\PokemonInterfaces\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PokeSERVICE\PokeDataSource.csproj" />
   </ItemGroup>
 

@@ -4,6 +4,10 @@ using PokeDataSource.Component.Pokemon.DataTransferObject;
 using PokeDataSource.Configuration;
 using PokeSERVICE.API_Integration;
 using System.Threading.Tasks;
+using NUnit.Framework;
+using PokeDataSource.Component.Pokemon.DataSourceInterfaces;
+using PokeBLL.Component.Pokemon.PokemonInterfaces;
+using PokeBLL.Component.Pokemon.PokemonImplement;
 
 namespace PokeTest
 {
@@ -37,11 +41,14 @@ namespace PokeTest
                 PokeHost = "https://localhost:44306/"
             });
 
-            var apiConnection = new ApiConnection(config);
-            var apiConnectionImplementation = new PokemonListApiConnectionImp(apiConnection);
-            var pokemonList = await apiConnectionImplementation.GetPokemonListAsync(20);
+            IApiConnection apiConnection = new ApiConnection(config);
+            IPokemonListApiConnectionImp pokemonList = new PokemonListApiConnectionImp(apiConnection);
+            IPokemonListImpl pokemonListImpl = new PokemonListImpl(pokemonList);
 
-            int pause = 0;
+            var result = await pokemonListImpl.GetPokemonListAsync(20);
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(3, result.Count);
 
         }
     }

@@ -1,4 +1,4 @@
-﻿using PokemonIntegration.Component.Pokemon.DataTransferObject;
+﻿using PokeDataSource.Component.Pokemon.DataTransferObject;
 using System;
 using System.Collections.Generic;
 using System.Linq;

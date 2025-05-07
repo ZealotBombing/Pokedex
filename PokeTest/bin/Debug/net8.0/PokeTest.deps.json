@@ -12,6 +12,7 @@
           "NUnit": "3.14.0",
           "NUnit.Analyzers": "3.9.0",
           "NUnit3TestAdapter": "4.5.0",
+          "PokeBLL": "1.0.0",
           "PokeDataSource": "1.0.0",
           "coverlet.collector": "6.0.0"
         },
@@ -469,6 +470,17 @@
           }
         }
       },
+      "PokeBLL/1.0.0": {
+        "dependencies": {
+          "PokeDataSource": "1.0.0"
+        },
+        "runtime": {
+          "PokeBLL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PokeDataSource/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Options": "9.0.4",
@@ -658,6 +670,11 @@
       "sha512": "sha512-bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
+    },
+    "PokeBLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "PokeDataSource/1.0.0": {
       "type": "project",
