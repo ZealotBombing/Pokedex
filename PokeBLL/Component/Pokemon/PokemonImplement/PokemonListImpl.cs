@@ -1,4 +1,5 @@
 ﻿using PokeDataSource.Component.Pokemon.DataSourceInterfaces;
+using Pokemon.Component.DataTransferObject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,14 +10,18 @@ namespace PokeBLL.Component.Pokemon.PokemonImplement
 {
     public class PokemonListImpl
     {
-        private readonly IApiConnection _apiConnection;
-
-        public PokemonListImpl(IApiConnection apiConnection)
+        private readonly IPokemonListApiConnectionImp _pokemonListApiConnectionImp;
+        public PokemonListImpl(IPokemonListApiConnectionImp pokemonListApiConnectionImp)
         {
-            _apiConnection = apiConnection;
+            _pokemonListApiConnectionImp = pokemonListApiConnectionImp;
         }
 
+        public async Task<List<PokemonDto>> GetPokemonList(int offSet) {
 
+            var pokemonList = await _pokemonListApiConnectionImp.GetPokemonListAsync(offSet);
+
+
+        }
 
     }
 }
