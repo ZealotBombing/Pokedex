@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Component\Pokemon\PokemonMapper\" />
     <Folder Include="Component\Pokemon\PokemonInterfaces\" />
-    <Folder Include="Component\Pokemon\PokemonDataTransferObject\" />
   </ItemGroup>
 
   <ItemGroup>

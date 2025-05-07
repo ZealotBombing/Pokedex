@@ -1,0 +1,6 @@
+C:\Users\cfuen\source\repos\Pokedex\PokeBLL\obj\Debug\net8.0\PokeBLL.csproj.AssemblyReference.cache
+C:\Users\cfuen\source\repos\Pokedex\PokeBLL\obj\Debug\net8.0\PokeBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cfuen\source\repos\Pokedex\PokeBLL\obj\Debug\net8.0\PokeBLL.AssemblyInfoInputs.cache
+C:\Users\cfuen\source\repos\Pokedex\PokeBLL\obj\Debug\net8.0\PokeBLL.AssemblyInfo.cs
+C:\Users\cfuen\source\repos\Pokedex\PokeBLL\obj\Debug\net8.0\PokeBLL.csproj.CoreCompileInputs.cache
+C:\Users\cfuen\source\repos\Pokedex\PokeBLL\obj\Debug\net8.0\PokeBLL.sourcelink.json
