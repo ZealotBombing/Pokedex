@@ -1,4 +1,7 @@
 using Microsoft.Extensions.Configuration;
+using PokeBLL.Component.Pokemon.PokemonImplement;
+using PokeDataSource.Component.Pokemon.DataSourceImplement;
+using PokeDataSource.Component.Pokemon.DataSourceInterfaces;
 using PokeDataSource.Configuration;
 using PokeSERVICE.API_Integration;
 
@@ -7,10 +10,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<PokeConfiguration>(
     builder.Configuration.GetSection("PokeConfiguration"));
 
+// DAL
+builder.Services.AddScoped<IApiConnection, ApiConnection>();
+builder.Services.AddScoped<IPokemonListApiConnectionImp, PokemonListApiConnectionImp>();
+
+// BLL
+builder.Services.AddScoped<PokemonListImpl>();
+
+
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddTransient<ApiConnection>();
-
 
 var app = builder.Build();
 

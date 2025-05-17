@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokeTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0d372f8f11d281b2ad3632cf59db9503408daed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1d53f013856c255c8cfcca71162520b63d046d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokeTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokeTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

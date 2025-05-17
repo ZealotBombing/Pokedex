@@ -2044,6 +2044,19 @@
           }
         }
       },
+      "PokeBLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "PokeDataSource": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PokeBLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PokeBLL.dll": {}
+        }
+      },
       "PokeDataSource/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -5720,6 +5733,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "PokeBLL/1.0.0": {
+      "type": "project",
+      "path": "../PokeBLL/PokeBLL.csproj",
+      "msbuildProject": "../PokeBLL/PokeBLL.csproj"
+    },
     "PokeDataSource/1.0.0": {
       "type": "project",
       "path": "../PokeSERVICE/PokeDataSource.csproj",
@@ -5729,6 +5747,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
+      "PokeBLL >= 1.0.0",
       "PokeDataSource >= 1.0.0"
     ]
   },
@@ -5764,6 +5783,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeBLL\\PokeBLL.csproj": {
+              "projectPath": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeBLL\\PokeBLL.csproj"
+            },
             "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\PokeDataSource.csproj": {
               "projectPath": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\PokeDataSource.csproj"
             }
