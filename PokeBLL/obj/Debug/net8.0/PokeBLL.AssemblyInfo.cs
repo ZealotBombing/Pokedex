@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokeBLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7feca047682b81abd2c8ba413fe431d6291730ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0d372f8f11d281b2ad3632cf59db9503408daed")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokeBLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokeBLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
