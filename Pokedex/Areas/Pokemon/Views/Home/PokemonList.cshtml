@@ -1,8 +1,45 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model List<Pokemon.Component.DataTransferObject.PokemonDto>
 @{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
-<h1>
-    HOME
-</h1>
+<div class="container">
+
+    <div class="row">
+
+        @foreach (var pokemon in Model)
+        {
+
+            <div class="col-3 me-3 mb-3 rounded" style="border: ridge">
+                <div class="row mt-2">
+                    <div class="col text-center bg-gradient">
+                        <a>
+                            <img src="@pokemon.Url" class="rounded-circle border border-secondary" />
+                        </a>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between mt-2">
+                    <div class="col">
+                        <p>N° @pokemon.Id</p>
+                        <h5>@pokemon.Name.ToUpper()</h5>
+                    </div>
+                    <div class="col mb-2 me-2 align-middle">
+
+                        @if (pokemon.Abilities != null)
+                        {
+                            @foreach (var ability in pokemon.Abilities)
+                            {
+                                <div class="row mb-1 w-75">
+                                    <div class="col rounded bg-success">
+                                        <small>@ability.Ability.name
+                                        </small>
+                                    </div>
+                                </div>
+                            }
+                        }
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

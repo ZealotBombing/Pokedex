@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PokeBLL\PokeBLL.csproj" />
     <ProjectReference Include="..\PokeSERVICE\PokeDataSource.csproj" />
   </ItemGroup>
 

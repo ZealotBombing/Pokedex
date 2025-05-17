@@ -121,3 +121,5 @@ C:\Users\cfuen\source\repos\Pokedex\PokeTest\bin\Debug\net8.0\Microsoft.Extensio
 C:\Users\cfuen\source\repos\Pokedex\PokeTest\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\cfuen\source\repos\Pokedex\PokeTest\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\cfuen\source\repos\Pokedex\PokeTest\bin\Debug\net8.0\WebDriver.dll
+C:\Users\cfuen\source\repos\Pokedex\PokeTest\bin\Debug\net8.0\PokeBLL.dll
+C:\Users\cfuen\source\repos\Pokedex\PokeTest\bin\Debug\net8.0\PokeBLL.pdb

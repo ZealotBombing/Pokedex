@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using OpenQA.Selenium;
+using PokeDataSource.Component.Pokemon.DataSourceInterfaces;
 using PokeDataSource.Configuration;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace PokeSERVICE.API_Integration
 {
-    public class ApiConnection
+    public class ApiConnection : IApiConnection
     {
         private readonly string _pokeHost;
 
