@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PokeDataSource.Component.Pokemon.DataSourceInterfaces
 {
-    internal interface IPokemonDetailsApiConnectionImpl
+    public interface IPokemonDetailsApiConnectionImpl
     {
         public Task<PokemonApiResultDto> GetPokemon(int pokemonId);
     }
