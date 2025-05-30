@@ -20,12 +20,6 @@ C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\scopedcss\projectbu
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets\msbuild.Pokedex.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets\msbuild.Pokedex.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets\msbuild.build.Pokedex.props
-C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Pokedex.props
-C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Pokedex.props
-C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\Pokedex.dll
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\refint\Pokedex.dll
@@ -240,3 +234,4 @@ C:\Users\cfuen\source\repos\Pokedex\Pokedex\bin\Debug\net8.0\PokeBLL.dll
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\bin\Debug\net8.0\PokeDataSource.dll
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\bin\Debug\net8.0\PokeBLL.pdb
 C:\Users\cfuen\source\repos\Pokedex\Pokedex\bin\Debug\net8.0\PokeDataSource.pdb
+C:\Users\cfuen\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\staticwebassets.build.json.cache
