@@ -1,4 +1,5 @@
-﻿using PokeDataSource.Component.Pokemon.DataSourceInterfaces;
+﻿using PokeBLL.Component.Pokemon.PokemonInterfaces;
+using PokeDataSource.Component.Pokemon.DataSourceInterfaces;
 using Pokemon.Component.BusinessMapper;
 using Pokemon.Component.DataTransferObject;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace PokeBLL.Component.Pokemon.PokemonImplement
 {
-    public class PokemonDetailsImpl
+    public class PokemonDetailsImpl : IPokemonDetailsImpl
     {
         public readonly IPokemonDetailsApiConnectionImpl _pokemonDetailsApiConnectionImpl;
         public PokemonDetailsImpl(IPokemonDetailsApiConnectionImpl pokemonDetailsApiConnectionImpl)
