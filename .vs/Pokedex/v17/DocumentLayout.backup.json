@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D7FF05F-0157-4FE2-977A-ABF9535D4BFF}|PokeBLL\\PokeBLL.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokebll\\component\\pokemon\\pokemonimplement\\pokemondetailsimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D7FF05F-0157-4FE2-977A-ABF9535D4BFF}|PokeBLL\\PokeBLL.csproj|solutionrelative:pokebll\\component\\pokemon\\pokemonimplement\\pokemondetailsimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D7FF05F-0157-4FE2-977A-ABF9535D4BFF}|PokeBLL\\PokeBLL.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokebll\\component\\pokemon\\pokemonimplement\\pokemonlistimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D7FF05F-0157-4FE2-977A-ABF9535D4BFF}|PokeBLL\\PokeBLL.csproj|solutionrelative:pokebll\\component\\pokemon\\pokemonimplement\\pokemonlistimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{656F0E78-DF55-4EB2-B658-C96A5A96D0FC}|PokeSERVICE\\PokeDataSource.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokeservice\\component\\pokemon\\datasourceimplement\\pokemondetailsapiconnectionimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{656F0E78-DF55-4EB2-B658-C96A5A96D0FC}|PokeSERVICE\\PokeDataSource.csproj|solutionrelative:pokeservice\\component\\pokemon\\datasourceimplement\\pokemondetailsapiconnectionimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokedex\\areas\\pokemon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|solutionrelative:pokedex\\areas\\pokemon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D7FF05F-0157-4FE2-977A-ABF9535D4BFF}|PokeBLL\\PokeBLL.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokebll\\component\\pokemon\\pokemonimplement\\pokemonlistimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D7FF05F-0157-4FE2-977A-ABF9535D4BFF}|PokeBLL\\PokeBLL.csproj|solutionrelative:pokebll\\component\\pokemon\\pokemonimplement\\pokemonlistimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{697FE31D-E86F-45A0-828A-3DA140C7B82E}|Pokedex\\Pokedex.csproj|c:\\users\\cfuen\\source\\repos\\pokedex\\pokedex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PokeTest.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeTest\\PokeTest.cs",
               "RelativeDocumentMoniker": "PokeTest\\PokeTest.cs",
@@ -79,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PokemonList.cshtml",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\Areas\\Pokemon\\Views\\Home\\PokemonList.cshtml",
               "RelativeDocumentMoniker": "Pokedex\\Areas\\Pokemon\\Views\\Home\\PokemonList.cshtml",
@@ -91,12 +95,51 @@
               "IsPinned": true
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PokemonDetailsImpl.cs",
+              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonDetailsImpl.cs",
+              "RelativeDocumentMoniker": "PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonDetailsImpl.cs",
+              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonDetailsImpl.cs",
+              "RelativeToolTip": "PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonDetailsImpl.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T02:54:01.685Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "PokemonListImpl.cs",
+              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonListImpl.cs",
+              "RelativeDocumentMoniker": "PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonListImpl.cs",
+              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonListImpl.cs",
+              "RelativeToolTip": "PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonListImpl.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA8AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:06:42.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PokemonDetailsApiConnectionImpl.cs",
+              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\Component\\Pokemon\\DataSourceImplement\\PokemonDetailsApiConnectionImpl.cs",
+              "RelativeDocumentMoniker": "PokeSERVICE\\Component\\Pokemon\\DataSourceImplement\\PokemonDetailsApiConnectionImpl.cs",
+              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\Component\\Pokemon\\DataSourceImplement\\PokemonDetailsApiConnectionImpl.cs",
+              "RelativeToolTip": "PokeSERVICE\\Component\\Pokemon\\DataSourceImplement\\PokemonDetailsApiConnectionImpl.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvwsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:28:59.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PokemonEndPointName.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\Component\\Pokemon\\DataSourceEndPointName\\PokemonEndPointName.cs",
               "RelativeDocumentMoniker": "PokeSERVICE\\Component\\Pokemon\\DataSourceEndPointName\\PokemonEndPointName.cs",
@@ -108,32 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PokemonDetailsApiConnectionImpl.cs",
-              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\Component\\Pokemon\\DataSourceImplement\\PokemonDetailsApiConnectionImpl.cs",
-              "RelativeDocumentMoniker": "PokeSERVICE\\Component\\Pokemon\\DataSourceImplement\\PokemonDetailsApiConnectionImpl.cs",
-              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\Component\\Pokemon\\DataSourceImplement\\PokemonDetailsApiConnectionImpl.cs",
-              "RelativeToolTip": "PokeSERVICE\\Component\\Pokemon\\DataSourceImplement\\PokemonDetailsApiConnectionImpl.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T03:28:59.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PokemonListImpl.cs",
-              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonListImpl.cs",
-              "RelativeDocumentMoniker": "PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonListImpl.cs",
-              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonListImpl.cs",
-              "RelativeToolTip": "PokeBLL\\Component\\Pokemon\\PokemonImplement\\PokemonListImpl.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T03:06:42.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\Areas\\Pokemon\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Pokedex\\Areas\\Pokemon\\Controllers\\HomeController.cs",
@@ -145,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\Program.cs",
               "RelativeDocumentMoniker": "Pokedex\\Program.cs",
@@ -157,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PokemonApiConnectionImpl.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\Component\\Pokemon\\DataSourceImplement\\PokemonApiConnectionImpl.cs",
               "RelativeDocumentMoniker": "PokeSERVICE\\Component\\Pokemon\\DataSourceImplement\\PokemonApiConnectionImpl.cs",
@@ -169,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\appsettings.json",
               "RelativeDocumentMoniker": "Pokedex\\appsettings.json",
@@ -181,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PokeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeSERVICE\\Configuration\\PokeConfiguration.cs",
               "RelativeDocumentMoniker": "PokeSERVICE\\Configuration\\PokeConfiguration.cs",
@@ -193,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Pokedex\\Properties\\launchSettings.json",
@@ -205,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\Pokedex\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pokedex\\Pages\\Index.cshtml",
@@ -217,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\Pokedex\\PokeDAL\\Class1.cs",
               "RelativeDocumentMoniker": "PokeDAL\\Class1.cs",

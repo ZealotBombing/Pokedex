@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9rZW1vblxWaWV3c1xIb21lXFBva2Vtb25MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/cfuen/source/repos/Pokedex/Pokedex/Areas/Pokemon/Views/Pokemon/PokemonDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9rZW1vblxWaWV3c1xQb2tlbW9uXFBva2Vtb25EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/cfuen/source/repos/Pokedex/Pokedex/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
