@@ -10,3 +10,6 @@
 /.vs/Pokedex/v17/TestStore/0/001.testlog
 /.vs/Pokedex/v17/TestStore/0/testlog.manifest
 /.vs/Pokedex/v17/.suo
+.vs/
+bin/
+obj/
