@@ -21,3 +21,7 @@
 /PokeTest/bin/Debug/net8.0/nunit_random_seed.tmp
 /PokeBLL/Component/Pokemon/PokemonDataTransferObject/PokemonTypeDto.cs
 /PokeSERVICE/Component/Pokemon/DataTransferObject/PokemonTypeApiResultDto.cs
+/PokeBLL/obj/Debug/net8.0/PokeBLL.csproj.CoreCompileInputs.cache
+/PokeBLL/obj/Debug/net8.0/PokeBLL.sourcelink.json
+/PokeSERVICE/obj/Debug/net8.0/PokeDataSource.csproj.CoreCompileInputs.cache
+/PokeSERVICE/obj/Debug/net8.0/PokeDataSource.sourcelink.json
