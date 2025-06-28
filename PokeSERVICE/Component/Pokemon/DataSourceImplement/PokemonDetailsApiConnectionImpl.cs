@@ -20,7 +20,7 @@ namespace PokeDataSource.Component.Pokemon.DataSourceImplement
 
         public async Task<PokemonApiResultDto> GetPokemon(int pokemonId)
         {
-            var pokemonData = await _apiConnection.GetPokeDataAsync<PokemonApiResultDto>(PokemonEndPointName.PokemonEndPoint);
+            var pokemonData = await _apiConnection.GetPokeDataAsync<PokemonApiResultDto>($"{PokemonEndPointName.PokemonEndPoint}pokeId={pokemonId}");
 
             return pokemonData;
         }

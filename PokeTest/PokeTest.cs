@@ -8,7 +8,8 @@ using NUnit.Framework;
 using PokeDataSource.Component.Pokemon.DataSourceInterfaces;
 using PokeBLL.Component.Pokemon.PokemonInterfaces;
 using PokeBLL.Component.Pokemon.PokemonImplement;
-
+using Pokedex.Areas.Pokemon.Controllers;
+using System.Net.WebSockets;
 namespace PokeTest
 {
     public class Tests
@@ -49,6 +50,31 @@ namespace PokeTest
 
             Assert.IsNotNull(result);
             Assert.AreEqual(3, result.Count);
+
+        }
+
+        [Test]
+        public async Task GetPokemonDetail()
+        {
+            try
+            {
+                var config = Options.Create(new PokeConfiguration
+                {
+                    PokeHost = "https://localhost:44306/"
+                });
+
+                IApiConnection apiConnection = new ApiConnection(config);
+                IPokemonDetailsApiConnectionImpl pokeDetailsApiConnectim = new PokemonDetailsApiConnectionImpl(apiConnection);
+                var pokemonImpl = new PokemonDetailsImpl(pokeDetailsApiConnectim);
+                //var pokemonController = new PokemonController(pokemonImpl);
+
+                var details = await pokemonImpl.GetPoKemonDetails(1);
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
 
         }
     }
