@@ -1,3 +1,5 @@
-﻿$(document).ready(() => {
-    console.log('this')
+﻿$('pokemon-item').on('click', (e) => {
+
+    console.log(e.target.dataset.pokeId)
 })
+
