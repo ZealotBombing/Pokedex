@@ -94,3 +94,7 @@ obj/Debug/net8.0/
 /PokeBLL/obj/Debug/net8.0/PokeBLL.assets.cache
 /PokeBLL/obj/Debug/net8.0/PokeBLL.csproj.FileListAbsolute.txt
 /PokeDAL/obj/Debug/net8.0/PokeDAL.assets.cache
+/PokeSERVICE/obj/Debug/net8.0/PokeDataSource.assets.cache
+/PokeSERVICE/obj/Debug/net8.0/PokeDataSource.csproj.FileListAbsolute.txt
+/Pokedex/obj/Debug/net8.0/Pokedex.assets.cache
+/Pokedex/obj/Debug/net8.0/Pokedex.csproj.FileListAbsolute.txt
