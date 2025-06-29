@@ -91,3 +91,6 @@ obj/Debug/net8.0/
 /PokeTest/bin/Debug/net8.0/NuGet.Frameworks.dll
 /PokeTest/bin/Debug/net8.0/PokeTest.deps.json
 /PokeTest/bin/Debug/net8.0/PokeTest.runtimeconfig.json
+/PokeBLL/obj/Debug/net8.0/PokeBLL.assets.cache
+/PokeBLL/obj/Debug/net8.0/PokeBLL.csproj.FileListAbsolute.txt
+/PokeDAL/obj/Debug/net8.0/PokeDAL.assets.cache
