@@ -11,9 +11,9 @@ namespace Pokedex.Areas.Pokemon.Controllers
         {
             this.pokemonDetailsImpl = pokemonDetails;
         }
-        public IActionResult PokemonDetails(int pokemonId)
+        public IActionResult PokemonDetails(int pokeId)
         {
-            var pokemonDetails = this.pokemonDetailsImpl.GetPoKemonDetails(pokemonId);
+            var pokemonDetails = this.pokemonDetailsImpl.GetPoKemonDetails(pokeId);
 
             return View(pokemonDetails);
         }

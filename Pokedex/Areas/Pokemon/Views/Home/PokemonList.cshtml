@@ -9,10 +9,10 @@
         @foreach (var pokemon in Model)
         {
 
-            <div name="pokemon-item" class="col-3 me-3 mb-3 rounded" style="border: ridge" data-poke-id="@pokemon.Id">
+            <div class="col-3 me-3 mb-3 rounded pokemon-item" style="border: ridge">
                 <div class="row mt-2">
                     <div class="col text-center bg-gradient">
-                        <a>
+                        <a href="@Url.Action("PokemonDetails", "Pokemon", new { pokeId = pokemon.Id})">
                             <img src="@pokemon.Url" class="rounded-circle border border-secondary" />
                         </a>
                     </div>
